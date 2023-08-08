@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/New-port-react/static/css/main.0427cd68.css",
+    "main.js": "/New-port-react/static/js/main.8ecbd269.js",
+    "static/media/Gamers_Hub.PNG": "/New-port-react/static/media/Gamers_Hub.19587fd9acd450934738.PNG",
+    "static/media/Travel_Blurb.PNG": "/New-port-react/static/media/Travel_Blurb.f5662e1e1f29a20348f5.PNG",
+    "static/media/horiseon-thumbnail.png": "/New-port-react/static/media/horiseon-thumbnail.aeadb61315e40cbae12d.png",
+    "static/media/Travel_Journal.PNG": "/New-port-react/static/media/Travel_Journal.c03a0f1b773adc085579.PNG",
+    "static/media/nina-selfie.jpg": "/New-port-react/static/media/nina-selfie.c81a426086b08943286d.jpg",
+    "index.html": "/New-port-react/index.html",
+    "main.0427cd68.css.map": "/New-port-react/static/css/main.0427cd68.css.map",
+    "main.8ecbd269.js.map": "/New-port-react/static/js/main.8ecbd269.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0427cd68.css",
+    "static/js/main.8ecbd269.js"
+  ]
+}
