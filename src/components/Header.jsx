@@ -1,22 +1,25 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
+// import '../assets/Header.css';
+// import Border from './Border';
 
-export default function Header() {
+function Header() {
   return (
-    <section>
-    <h1>Nina's Portfolio</h1>
-    <nav class="menu">
-      <ul>
-        <li class="button"><a href="#aboutMe">About Me</a></li>
-
-        <li class="button"><a href="#work">Work</a></li>
-
-        <li class="button"><a href="#contactMe">Contact Me</a></li>
-
-        <li class="button">
-          <a href="https://my.indeed.com/p/ninas-wsgh615">Resume</a>
-        </li>
-      </ul>
-    </nav>
-  </section>
-  )
+    <>
+    <header className="header">
+      <h1>Nina's Portfolio</h1>
+      <nav className="menu">
+        <ul>
+          <li className="button"><Link to="/about">About Me</Link></li>
+          <li className="button"><Link to="/portfolio">Portfolio</Link></li>
+          <li className="button"><Link to="/resume">Resume</Link></li>
+          <li className="button"><Link to="/contact">Contact</Link></li>
+        </ul>
+      </nav>
+    </header>
+    {/* <Border /> */}
+    </>
+  );
 }
+
+export default Header;

@@ -1,13 +1,102 @@
 body {
+  font-family: "Franklin Gothic Medium";
+  color: #05445e;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* display: flex; */
+  background-color: #6fdbd0;
+}
+/*
+BOX
+*/
+
+.box {
+  width: 80vw;
+  max-width: 720px;
+  /* inline-size: 450px;
+  block-size: 100px; */
+  margin: 25px;
+  padding: 25px;
+  border: 5px;
+  padding: 15px;
+  padding-bottom: 15px;
+  background-color: #05445e;
+  border-radius: 25px;
+  color: rgb(248, 168, 20);
+  text-align: center;
+}
+/*
+Header
+*/
+
+header {
+  padding: 5px;
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 30pt;
+}
+
+/*
+NAV BAR STUFF
+*/
+
+.selfieImg {
+  max-width: 100%;
+  max-height: 50vh;
+}
+
+.boxHeader {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 480px) {
+  nav ul {
+    font-size: 30pt;
+  }
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-left: 0px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #189ab4;
+  list-style: none;
+  padding-bottom: 0px;
+}
+
+li {
+  padding: 5px;
+  background-color: #05445e;
+  border-radius: 25px;
+}
+
+li a {
+  color: orange;
+  text-decoration: none;
+}
+
+.button {
+  transition-duration: 0.6s;
+}
+
+.button:hover {
+  background-color: orange;
+  color: orange;
+}
+
+.contactmeList {
+color: rgb(226, 183, 102);
+
 }

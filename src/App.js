@@ -9,18 +9,18 @@ import Header from "./components/Header";
 
 function App() {
   return (
+    <>
     <Router>
-      <>
-        <Routes>
           <Header/>
+        <Routes>
           <Route path="/" element={<About/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/contact" element={<Contact/>} />
           <Route path="/portfolio" element={<Portfolio/>} />
           <Route path="/resume" element={<Resume/>} />
         </Routes>
-      </>
     </Router>
+      </>
   );
 }
 
